@@ -15,7 +15,7 @@ To run with output in the terminal:
 - Run python3 HW3_LocalSearch.py  
 - The program will direct you from there.
 
-WEBSITE: https://donnelgarner.com/projects/CS480/localsearch/index.html
+WEBSITE: https://donnelgarner.com/projects/CS480/localsearch/index.html  
 GOOGLE COLAB: N/A  
 GITHUB: https://github.com/skyelogic/cs480-localsearch/
 
