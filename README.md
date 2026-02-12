@@ -1,17 +1,17 @@
 # CS480 – Module 3 Assignment
-Local Search: Hill Climbing
-Author: Donnel Garner
-Date: 02/12/2026
+Local Search: Hill Climbing  
+Author: Donnel Garner  
+Date: 02/12/2026  
 
-This project implements two hill climbing–based local search algorithms:
+This project implements two hill climbing–based local search algorithms:  
 - Descending Hill Climbing to minimize the Eggholder function
 - Hill Climbing (Min-Conflicts style) to solve the N-Queens problem
 
-Both problems demonstrate how hill climbing behaves in:
+Both problems demonstrate how hill climbing behaves in:  
 - A continuous search space (Eggholder)
 - A discrete combinatorial search space (N-Queens)
 
-To run with output in the terminal:  
+To run with output in the terminal: 
 - Run python3 HW3_LocalSearch.py  
 - The program will direct you from there.
 
@@ -21,21 +21,21 @@ GITHUB: https://github.com/skyelogic/cs480-localsearch/
 
 ## INTRODUCTION
 
-Both problems demonstrate how hill climbing behaves in:
+Both problems demonstrate how hill climbing behaves in:  
 - A continuous search space (Eggholder)
 - A discrete combinatorial search space (N-Queens)
 
 ## Eggholder Function
 
-Minimize the Eggholder function over the domain:
-		-512 ≤ x ≤ 512
-		-512 ≤ y ≤ 512
+Minimize the Eggholder function over the domain:  
+		-512 ≤ x ≤ 512  
+		-512 ≤ y ≤ 512  
 		
 Algorithm:
-- Random starting point
-- Random neighbor generated using:
-		x' = x + (rand() - 0.5) * 1.0
-		y' = y + (rand() - 0.5) * 1.0
+- Random starting point  
+- Random neighbor generated using:  
+		x' = x + (rand() - 0.5) * 1.0  
+		y' = y + (rand() - 0.5) * 1.0  
 - If the neighbor has a lower value, move to it
 - Stop after 100 consecutive non-improving moves
 - Repeat 100 independent runs
